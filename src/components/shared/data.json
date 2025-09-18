@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_data",
+  "info": {
+    "displayName": "Data"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

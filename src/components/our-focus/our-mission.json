@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_our_focus_our_missions",
+  "info": {
+    "displayName": "OurMission"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HireCard": {
+      "type": "component",
+      "component": "common.hire-card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

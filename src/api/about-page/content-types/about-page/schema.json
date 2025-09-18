@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "landing-page.testimonial",
+        "landing-page.client-component",
+        "landing-page.about-component",
+        "about-page.history-section",
+        "about-page.leader-card",
+        "about-page.team-component"
+      ]
+    }
+  }
+}

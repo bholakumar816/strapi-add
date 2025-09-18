@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_page_client_components",
+  "info": {
+    "displayName": "ClientComponent"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

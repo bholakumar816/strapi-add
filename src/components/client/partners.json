@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_client_partners",
+  "info": {
+    "displayName": "Partners"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false,
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_history_cards",
+  "info": {
+    "displayName": "HistoryCard"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

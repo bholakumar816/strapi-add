@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_profile_cards",
+  "info": {
+    "displayName": "ProfileCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

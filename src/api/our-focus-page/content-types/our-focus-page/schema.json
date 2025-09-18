@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_focus_pages",
+  "info": {
+    "singularName": "our-focus-page",
+    "pluralName": "our-focus-pages",
+    "displayName": "Our Focus Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "our-focus.our-vision",
+        "our-focus.our-steps",
+        "our-focus.our-mission",
+        "landing-page.testimonial",
+        "our-focus.faq"
+      ]
+    }
+  }
+}

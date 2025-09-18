@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "MainLogo": {
+      "type": "component",
+      "component": "shared.logo-link",
+      "repeatable": false,
+      "required": true
+    },
+    "NavLink": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true,
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

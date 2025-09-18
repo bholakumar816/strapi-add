@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_our_focus_our_visions",
+  "info": {
+    "displayName": "OurVision"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

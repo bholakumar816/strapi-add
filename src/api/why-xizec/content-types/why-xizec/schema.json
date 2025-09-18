@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_xizecs",
+  "info": {
+    "singularName": "why-xizec",
+    "pluralName": "why-xizecs",
+    "displayName": "why Xizec"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "our-focus.our-vision",
+        "landing-page.why-choose-component",
+        "landing-page.services",
+        "why-xizec.better-section",
+        "why-xizec.industory-component",
+        "our-focus.faq"
+      ]
+    }
+  }
+}

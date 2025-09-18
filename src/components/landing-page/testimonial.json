@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_page_testimonials",
+  "info": {
+    "displayName": "Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

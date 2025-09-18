@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_page_history_sections",
+  "info": {
+    "displayName": "HistorySection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "cards": {
+      "type": "component",
+      "component": "common.history-card",
+      "repeatable": true
+    },
+    "HireCard": {
+      "type": "component",
+      "component": "common.hire-card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

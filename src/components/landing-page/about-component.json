@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_landing_page_about_components",
+  "info": {
+    "displayName": "about-component"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "statistics": {
+      "type": "component",
+      "component": "common.statistics",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

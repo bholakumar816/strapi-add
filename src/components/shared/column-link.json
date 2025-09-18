@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_column_links",
+  "info": {
+    "displayName": "ColumnLink"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

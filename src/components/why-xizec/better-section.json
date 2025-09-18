@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_why_xizec_better_sections",
+  "info": {
+    "displayName": "BetterSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HireCard": {
+      "type": "component",
+      "component": "common.hire-card",
+      "repeatable": false
+    },
+    "cards": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_page_leader_cards",
+  "info": {
+    "displayName": "LeaderCard"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "common.section-heading",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

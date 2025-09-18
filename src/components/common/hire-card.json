@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_hire_cards",
+  "info": {
+    "displayName": "HireCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
